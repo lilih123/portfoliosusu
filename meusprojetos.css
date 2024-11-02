@@ -1,0 +1,142 @@
+  body {
+      margin: 0;
+      background-color: rgb(21, 23, 31);
+      padding: 0;
+      font-family: "Montserrat Alternates", sans-serif;
+      color: white;
+  }
+
+  #fundocolorido {
+      position: absolute;
+      top: 38px;
+      left: 32%;
+  }
+
+  .meusprojeto {
+      position: absolute;
+      top: 40px;
+      left: 42.9%;
+      font-size: 200%;
+      text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .casinha2 {
+      position: absolute;
+      left: 900px;
+      top: 1280px;
+  }
+
+  .casinha {
+      position: absolute;
+      left: 900px;
+      top: 470px;
+  }
+
+  .casinha3 {
+      position: absolute;
+      left: 928.5px;
+      top: 1285.5px;
+  }
+
+  .miaupreto {
+      position: absolute;
+      top: 99px;
+      left: 61%;
+      width: 2.5%;
+      box-shadow: 50%;
+  }
+
+  .trabalhologp {
+      position: absolute;
+      top: 12.5%;
+      width: 60%;
+      height: 64%;
+
+  }
+
+  #trbalholog {
+      position: absolute;
+      top: 56%;
+      left: 12%;
+  }
+
+  #trabalhofront {
+      position: absolute;
+      left: 56%;
+
+  }
+
+  #frontt {
+      position: absolute;
+      top: 56%;
+      left: 56%;
+  }
+
+  #lalalalla {
+      position: absolute;
+      left: 12%;
+
+  }
+
+  .projects {
+      position: absolute;
+      top: 16%;
+      left: 10px;
+  }
+
+  #projetinhos {
+      position: absolute;
+      top: 110%;
+  }
+
+  .linkdosprojeto {
+      background-color: black;
+      color: black;
+      position: absolute;
+      top: 120%;
+      left: 150px;
+      height: 30%;
+      width: 32%;
+      border-radius: 12%;
+  }
+
+  #link1 {
+      position: absolute;
+      top: 122%;
+      color: white;
+      left: 16%;
+      background-color: transparent;
+
+  }
+
+  #link2 {
+      position: absolute;
+      top: 128%;
+      left: 16%;
+      color: white;
+      background-color: transparent;
+  }
+
+  #link3 {
+      position: absolute;
+      top: 134%;
+      left: 16%;
+      color: white;
+      background-color: transparent;
+  }
+
+  #link4 {
+      position: absolute;
+      top: 140%;
+      left: 16%;
+      color: white;
+      background-color: transparent;
+  }
+
+  #obs {
+      color: rgb(155, 79, 226);
+      position: absolute;
+      top: 145%;
+      left: 25%;
+      background-color: transparent;
+  }

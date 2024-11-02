@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    background-color: rgb(21, 23, 31);
+    padding: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: rgb(71, 65, 107);
+    color: rgb(21, 23, 31);
+
+}
+
+header {
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+
+    .dark-mode & {
+        background-color: white;
+    }
+}
+
+
+.inicio {
+    color: white;
+    position: absolute;
+    top: -6px;
+    left: 180px;
+    font-size: 0.8em;
+
+    .dark-mode & {
+        color: black;
+    }
+}
+
+.inicio:hover {
+    color: rgb(142, 90, 232);
+}
+
+
+#relat {
+    position: absolute;
+    padding-left: -50px;
+    width: 30%;
+    left: 570px;
+}
+
+#carregar {
+    height: 10px;
+    width: 9px;
+    display: grid;
+    align-items: center;
+
+}
+
+#imghamburguer {
+    height: 25px;
+    position: absolute;
+    top: 12px;
+    left: 5px;
+}
+
+#contato {
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: 360px;
+    font-size: 0.8em;
+
+    .dark-mode & {
+        color: black;
+    }
+}
+
+#contato:hover {
+    color: rgb(142, 90, 232);
+}
+
+
+#meusprojetos {
+    color: white;
+    padding-left: 180px;
+    position: absolute;
+    top: 14px;
+    left: 1115px;
+    text-decoration: none;
+    font-size: 0.8em;
+
+    .dark-mode & {
+        color: black;
+    }
+}
+
+#meusprojetos:hover {
+    color: rgb(142, 90, 232);
+}
+
+#sobreeuzinha {
+    color: white;
+    padding-left: 140px;
+    position: absolute;
+    top: 14px;
+    left: 1460px;
+    text-decoration: none;
+    font-size: 0.8em;
+
+    .dark-mode & {
+        color: black;
+    }
+}
+
+
+#sobreeuzinha:hover {
+    color: rgb(142, 90, 232);
+}
+
+#imgmuiecolorida {
+    display: flex;
+    width: 420px;
+    align-items: start;
+    height: 460px;
+    position: absolute;
+    left: 500px;
+    top: 110px;
+}
+
+#text1 {
+    color: white;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    top: 250px;
+    font-size: 40px;
+    left: 1000px;
+}
+
+#text01 {
+    color: rgb(142, 90, 232);
+    display: flex;
+    align-items: start;
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    font-size: 45px;
+
+}
+
+#img_girafa {
+    height: 460px;
+    top: 566px;
+    left: 920px;
+    position: absolute;
+    width: 420px;
+}
+
+#text2 {
+    color: white;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    top: 650px;
+    font-size: 40px;
+    left: 459px;
+    font-size: 30px;
+
+}
+
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#btn_github {
+    background-color: rgb(142, 90, 232);
+    width: 60px;
+    height: 45px;
+    border-radius: 90px;
+    position: absolute;
+    top: 1080px;
+    left: 1790px;
+
+}
+
+#btn_meugmail {
+    background-color: rgb(142, 90, 232);
+    border-radius: 70px;
+    color: white;
+    position: absolute;
+    top: 1080px;
+    left: 180px;
+    width: 300px;
+    height: 4vh;
+}
+
+#gmail {
+    position: absolute;
+    top: 8%;
+    left: 10px;
+    height: 3vh;
+}
+
+
+/* From Uiverse.io by Madflows */
+.toggle-switch {
+    position: relative;
+    width: 75px;
+    height: 20px;
+    --light: #d8dbe0;
+    --dark: #28292c;
+    --link: rgb(27, 129, 112);
+    --link-hover: rgb(24, 94, 82);
+}
+
+.switch-label {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-color: var(--dark);
+    border-radius: 25px;
+    cursor: pointer;
+    border: 3px solid var(--dark);
+}
+
+.checkbox {
+    position: absolute;
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+.checkbox:checked~.slider {
+    background-color: var(--light);
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+    box-shadow: inset 12px -4px 0px 0px var(--light);
+    background-color: var(--dark);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.checkbox:checked~.slider::before {
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+    background-color: var(--dark);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.toggle-switch {
+    position: absolute;
+    left: 93%;
+}

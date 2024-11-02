@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    background-color: rgb(21, 23, 31);
+    padding: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+}
+
+@keyframes example {
+
+    /* Mantém o estado final */
+    From {
+        left: 0px;
+        opacity: 0;
+    }
+
+    /* Posição final*/
+
+    to {
+        left: 450px;
+        opacity: 1;
+    }
+}
+
+#introducao {
+    color: rgb(155, 79, 226);
+    font-size: 32px;
+    width: 20%;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.9s;
+    animation-fill-mode: forwards;
+    top: 45px;
+}
+
+
+#img_leaocolorido {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 19%;
+    height: 40%;
+}
+
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sobremim {
+    position: absolute;
+    left: 450px;
+    font-size: 200%;
+}
+
+#sobremim02 {
+    font-size: 140%;
+    top: 217px;
+}
+
+.curriculo2 {
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    top: 45%;
+    left: 90px;
+}
+
+#emojibj {
+    position: absolute;
+    top: 460px;
+    left: 26%;
+
+}
+
+.retanguloroxo {
+    position: absolute;
+    left: 23.9%;
+    top: 200px;
+
+}
+
+.quadradowhite {
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top: 525px;
+    width: 10%;
+    height: 20%;
+    border-radius: 25%;
+
+}
+
+.curriculoslk {
+    position: absolute;
+    top: 59.9%;
+    left: 210px;
+}
+
+.lupa {
+    position: absolute;
+    top: 73%;
+    left: 332px;
+    background-color: transparent;
+    border: none;
+}
+
+#imgdomodal{
+    position: absolute;
+    left: 40%;
+    height: 42%;
+    width: 20%;
+   top: 40%;
+   object-fit: fill;
+}
+.modal {
+    display: none; /* Esconde o modal por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 60%;
+    top: 2%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.retangulo {
+    position: absolute;
+    left: 47%;
+    top: 0px;
+
+}
+
+.Habilidades {
+    position: absolute;
+    top: 77%;
+    left: 60px;
+    font-size: 140%;
+    color: rgb(155, 79, 226);
+
+
+}
+
+#star {
+    position: absolute;
+    left: 240px;
+    top: 22px;
+
+}
+
+.Habilidades {
+    position: absolute;
+    top: 80%;
+    left: 60px;
+    font-size: 140%;
+    color: rgb(155, 79, 226);
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    /* Hide by default */
+    position: absolute;
+    top: 30px;
+    /* Adjust position as needed */
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 254, 254);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    /* Make sure it appears above other elements */
+    transition: opacity 0.3s ease;
+    font-size: 70%;
+}
+
+/* Show modal on hover */
+.Habilidades:hover .modal {
+    display: block;
+    /* Show modal */
+    animation-name: examplee;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    top: 50%;
+    position: absolute;
+}
+
+@keyframes examplee {
+    From {
+        left: 0px;
+        opacity: 0;
+    }
+
+    to {
+        top: 45px;
+        opacity: 1;
+    }
+}
+
+.slaaroxo {
+    position: relative;
+    top: -89px;
+    left: 60%;
+}
+
+.entrarcontato {
+    position: absolute;
+    left: 67.5%;
+    top: 9%;
+    text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: 150%;
+
+}
+
+#botaogmail {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    color: black;
+    position: absolute;
+    top: 170px;
+    right: 280px;
+    width: 300px;
+    height: 4vh;
+    left: 61%;
+
+
+}
+
+#butaodogmail {
+    position: absolute;
+    top: 8%;
+    left: 15px;
+    height: 3vh;
+
+}
+
+.butaozapzap {
+    position: absolute;
+    left: 80%;
+    top: 18.5%;
+}
+
+.fundobranco {
+    background-color: white;
+    width: 16.5%;
+    height: 30vh;
+    position: absolute;
+    left: 1240px;
+    top: 36.5%;
+    border-radius: 5%;
+}
+
+.retanguloakak {
+    position: absolute;
+    width: 100%;
+    left: 1532px;
+    top: 38.5%;
+}
+
+#retangulokkk{ position: absolute;
+left: 1255px;
+
+}
+
+/* From Uiverse.io by cbolson */
+.my-form {
+    --_clr-primary: #666;
+    --_clr-hover: #f33195;
+    --_clr-checked: #127acf;
+    position: absolute;
+    left: 1305px;
+    top: 370px;
+}
+
+.my-form>div {
+    --_clr-current: var(--_clr-primary);
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.my-form>div+div {
+    margin-block-start: 0.5rem;
+}
+
+.my-form label {
+    cursor: pointer;
+    color: var(--_clr-current);
+    transition: color 150ms ease-in-out;
+}
+
+/* styled checkbox */
+.my-form input[type="checkbox"] {
+    appearance: none;
+    outline: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    aspect-ratio: 1;
+    padding: 0.25rem;
+    background: transparent;
+    border: 1px solid var(--_clr-current);
+    border-radius: 2px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.my-form input[type="checkbox"]::after {
+    content: "\2714";
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    color: var(--_clr-checked);
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.my-form label:hover,
+.my-form input[type="checkbox"]:focus-visible,
+.my-form input[type="checkbox"]:focus-visible+label,
+.my-form input[type="checkbox"]:hover,
+.my-form input[type="checkbox"]:hover+label {
+    --_clr-current: var(--_clr-hover);
+}
+
+.my-form input[type="checkbox"]:focus-visible::after,
+.my-form input[type="checkbox"]:hover::after {
+    opacity: 0.5;
+    color: var(--_clr-hover);
+}
+
+.my-form input[type="checkbox"]:checked+label:not(:hover),
+.my-form input[type="checkbox"]:checked:not(:hover) {
+    --_clr-current: var(--_clr-checked);
+}
+
+.my-form input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.retagle5 {
+    position: absolute;
+    left: 1270px;
+    top: 270px;
+}
+
+.trabalho22 {
+    position: absolute;
+    left: 1235px;
+    top: 236px;
+    font-size: 26px;
+    color: black;
+}
+
+.retangle22 {
+    position: absolute;
+    left: 1780px;
+    top: 1000px;
+}
+
+.casinha2 {
+    position: absolute;
+    left: 900px;
+    top: 470px;
+}
+
+.casinha {
+    position: absolute;
+    left: 900px;
+    top: 470px;
+}
+
+.index2 {
+    position: absolute;
+    left: 920px;
+    top: 470px;
+    text-decoration: none;
+}
+
+.casinha3 {
+    position: absolute;
+    left: 930px;
+    top: 475px;
+}
